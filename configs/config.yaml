@@ -1,0 +1,4 @@
+# db 연결 예시
+database:
+  driver: "mysql"
+  connection_string: "username:password@tcp(localhost:3306)/myclosetdb"
