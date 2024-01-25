@@ -6,5 +6,6 @@ type Clothing struct {
 	Name     string `json:"name"`
 	Category string `json:"category"`
 	Color    string `json:"color"`
+	ImagePath string `json:"imagePath"`  // 이미지 파일 경로
 	// 추가적인 필드들을 필요에 따라 정의
 }
